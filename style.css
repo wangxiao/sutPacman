@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*start #pacman*/
+#pacman{
+ height:186px;
+ width:690px;
+ position:relative;
+ top:10px;
+ background:none repeat scroll 0 0 black;
+}
+
+#game{
+ height:136px;
+ width:600px;
+ background-image:url(images/pacman.png);
+ background-position:-320px 0px;
+ background-repeat:no-repeat;
+ position:absolute;
+ left:45px;
+ top:25px;
+ overflow:hidden;
+ display:none;
+}
+
+#game *{
+ overflow:hidden;
+ position:absolute;
+}
+
+#beforeGame{
+ width:585px;
+ height:120px;
+ position:absolute;
+ top:40px;
+ left:50px;
+}
+
+#pro-bar1{
+ background:none repeat scroll 0 0 #999900;
+ width:230px;
+ height:2px;
+ overflow:hidden;
+ position:absolute;
+ top:120px;
+ left:175px;
+}
+#pro-bar2{
+ background:none repeat scroll 0 0 #FFFF00;
+ width:0px;
+ height:2px;
+ overflow:hidden;
+ position:absolute;
+ top:120px;
+ left:175px;
+}
+
+#logo{
+ background-image:url(images/logo.jpg);
+ height:88px;
+ width:330px;
+}
+
+#pcm-do{
+display:block;
+background:none repeat scroll 0 0 #FFAAA5;
+height:2px;
+width:19px;
+left:263px;
+top:45px;
+}
+
+#pcm-re{
+ background-image:url(images/pacman.png);
+ background-repeat:no-repeat;
+ background-position:-200px 0px;
+ height:8px;
+ left:250px;
+ top:97px;
+ width:48px;
+ z-index:120;
+}
+
+#game .pcm-d{
+ background:none repeat scroll 0 0 #F8B090;
+ height:2px;
+ margin-left:3px;
+ margin-top:3px;
+ width:2px;
+ z-index:100;
+}
+
+/*start #actor*/
+#game .pcm-ac{
+ height:16px;
+ margin-left:-4px;
+ margin-top:-4px;
+ width:16px;
+ z-index:110;
+ background-image:url(images/pacman.png);
+ background-repeat:no-repeat;
+}
+/*start actor0*/
+#game .wangxiao{
+ background-position:-40px 0px;
+ left:268px;
+ top:120px;
+}
+#game .actor1{
+ background-position:-100px -80px;
+ left:268px;
+ top:32px;
+}
+#game .actor2{
+ background-position:-40px -100px;
+ left:284px;
+ top:56px;
+}
+#game .actor3{
+ background-position:0px -120px;
+ left:252px;
+ top:56px;
+}
+
+#game .actor4{
+ background-position:0px -140px;
+ left:268px;
+ top:56px;
+}
+/*end #actor*/
+#poweredby p a{
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:10px;
+}
+/*end #pacman*/
